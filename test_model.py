@@ -251,7 +251,7 @@ def compute_metrics(true_labels, predictions, probabilities, top5_correct, total
 def main():
     args = parse_args()
     
-    # Meta data columns (same as main_pad.py)
+    # Meta data columns 
     meta_data_columns = [
         'smoke_False', 'smoke_True', 'drink_False', 'drink_True', 'background_father_POMERANIA',
         'background_father_GERMANY', 'background_father_BRAZIL', 'background_father_NETHERLANDS',

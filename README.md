@@ -11,7 +11,8 @@ DermaCalibra 是一个基于深度学习的皮肤病变分类系统，结合了�
 1. 下载 PAD-UFES-20 数据集：
    - 访问 [PAD-UFES-20 数据集页面](https://data.mendeley.com/datasets/zr7vgbcyr2/1)
    - 点击 "Download" 按钮下载数据集压缩包
-
+   - Patients metadata is preprocessed same as MetaBlock (https://github.com/paaatcha/MetaBlock)
+   - 或直接通过我的百度网盘链接下载Metablock处理后的数据链接: https://pan.baidu.com/s/18Fpd9kjF6Bj6J8WfgUIdDA?pwd=wb99 提取码: wb99
 2. 数据集存放：
    - 创建项目根目录下的 `PAD-UFES-20` 文件夹
    - 将下载的数据集解压到该文件夹中
