@@ -156,10 +156,13 @@ python gfa_analysis.py
 ```
 ## 测试合成 HAM10000 和 ISIC 2019 数据集
 # 测试 HAM10000 数据集
+```bash
  python test_ham.py --model_path [模型路径] --batch_size 8 --output_dir [输出目录]
- 
+```
+ ```bash
 # 测试 ISIC 2019 数据集
  python test_isic.py --model_path [模型路径] --batch_size 8 --output_dir [输出目录]
+```
 ## 输出文件
 
 - 训练日志：`logs/[timestamp]_training.log`
