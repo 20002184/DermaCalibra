@@ -155,8 +155,8 @@ python gfa_analysis.py
 [model_name]_[accuracy]_[bacc]_[macro_auc]_epoch_[epoch_number].pkl
 ```
 ## 测试合成 HAM10000 和 ISIC 2019 数据集
-# 测试 HAM10000 数据集
 ```bash
+# 测试 HAM10000 数据集
  python test_ham.py --model_path [模型路径] --batch_size 8 --output_dir [输出目录]
 ```
  ```bash
